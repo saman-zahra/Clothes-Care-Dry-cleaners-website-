@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap");
+.container {
+  max-width: 1140px;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+.text_lato {
+  font-family: "Lato", sans-serif;
+}
+
+@media (max-width: 769px) {
+  .below_header {
+    padding-left: 36px;
+  }
+  .px-20 {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .custom_direction {
+    flex-direction: column-reverse !important;
+  }
+  .services_text{
+    padding: 12px 22px ;
+  }
+}
+
+.service_card_content .ant-card-body {
+  text-align: -webkit-center;
+}
+.servicesCards .ant-card-meta-detail .ant-card-meta-title {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+.subServicesMain {
+  border-bottom: 1px solid #d3d1d1;
+  margin-bottom: 15px;
+}
+.ant-list-item {
+  margin-bottom: 0px;
+}
+.headings {
+  border-bottom: 3px solid #0890f3;
+  width: max-content;
+  margin: 20px 0px;
+}
+.nav_listing > li{
+  text-wrap: nowrap !important;
+}
